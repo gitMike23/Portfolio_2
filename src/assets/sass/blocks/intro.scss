@@ -1,0 +1,25 @@
+.intro__text {
+    color: $gray_dark; 
+    font-size: 1.2rem;
+}
+
+.intro__title {
+    margin-bottom: .5rem;
+
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: $black;
+    line-height: 1.2;
+}
+
+.intro__subtitle {
+    margin-bottom: 2rem;
+
+    font-size: 1.6rem;
+    color: $black;
+    font-weight: 400;
+}
+
+.intro__subtitle-pink {
+    color: $pink;
+}
