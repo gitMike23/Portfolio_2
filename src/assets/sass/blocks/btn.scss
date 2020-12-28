@@ -12,7 +12,10 @@
     color:$black;
     line-height: 1.1;   
     font-weight: 500;
+    font-family: inherit;
     text-decoration: none;
+
+    cursor: pointer;
 
     transition: background .1s linear, color .1s linear;
 

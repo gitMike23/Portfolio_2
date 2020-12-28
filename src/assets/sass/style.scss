@@ -25,6 +25,9 @@ body {
 @import "../../../node_modules/bootstrap/scss/variables";
 @import "../../../node_modules/bootstrap/scss/mixins";
 @import "../../../node_modules/bootstrap/scss/grid";
+@import "../../../node_modules/bootstrap/scss/modal";
+@import "../../../node_modules/bootstrap/scss/transitions";
+
 
 /* Blocks */
 @import "blocks/header.scss";
@@ -38,4 +41,8 @@ body {
 @import "blocks/btn.scss"; 
 @import "blocks/contacts.scss"; 
 @import "blocks/author.scss";
-@import "blocks/circle.scss"; 
+@import "blocks/circle.scss";
+@import "blocks/social.scss";
+@import "blocks/modal.scss";
+@import "blocks/input.scss";
+

@@ -18,8 +18,10 @@
 @keyframes circle_animate {
     0% {
         border-radius: 60% 40% 69% 31% / 51% 39% 61% 49%;
+        transform: translate3d(0, 0, 0);
     }
     100% {
         border-radius: 28% 72% 43% 57% / 79% 71% 29% 21%;
+        transform: translate3d(-80px, -80px, 0);
     }
 }

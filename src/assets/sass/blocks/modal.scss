@@ -1,0 +1,60 @@
+.modal-content {
+    position: relative;
+
+    background-color: $white;
+    box-shadow: $shadow;
+    border-radius: $radius_sm;
+
+    width: 100%;
+    padding: 2rem;
+}
+
+.modal__title {
+    font-size: 1.6rem;
+    color: $pink;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+.modal__text {
+    margin-bottom: 2rem;
+
+    font-size: 1rem;
+    line-height: 1.2;
+    color: $black;
+    font-weight: 500;
+}
+
+.modal__close {
+    position: absolute;
+    top: -2.2rem;
+    right: -2.2rem;
+    padding: 0;
+
+    cursor: pointer;
+
+
+    width: 1.5rem;
+    height: 1.5rem;
+
+    background: none;
+    border: none;
+
+    transition: transform .2s linear;
+
+    &:focus {
+        outline: 0;
+    }
+
+    &:hover {
+        transform: rotate(180deg);
+    }
+
+    &_icon {
+        display: block;
+        width: 100%;
+        height: 100%;
+
+        fill: $white;
+    }
+}
