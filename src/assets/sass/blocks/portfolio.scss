@@ -1,0 +1,44 @@
+.portfolio__item {
+    position: relative;
+    background-color: #000;
+    overflow: hidden;
+    max-width: 540px;
+
+    &:hover {
+        .portfolio__img {
+            opacity: .3;
+        }
+        .portfolio__title {
+            transform: translateY(0);
+        }
+    }
+}
+
+.portfolio__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+    transition: opacity .1s linear;
+}
+
+.portfolio__link {
+    display: block;
+
+}
+
+.portfolio__title {
+    width: 100%;
+    padding: 1rem 1.5rem;
+
+    font-size: 1.6rem;
+    color: $white;
+
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+
+    transition: transform .2s linear;
+
+    transform: translateY(100%);
+}
